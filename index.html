@@ -1,59 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dhênnifer - Cantora para Casamentos</title>
     <style>
         body {
-            background-color: #121212;
-            color: #ffffff;
             font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: #fff;
             text-align: center;
             padding: 50px;
         }
         .container {
             max-width: 600px;
             margin: auto;
-            background: #1e1e1e;
-            padding: 20px;
+            background: #292929;
+            padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 0px 10px rgba(255, 192, 203, 0.5);
         }
-        img {
+        .profile-pic {
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            object-fit: cover;
-            border: 3px solid #ff4081;
+            border: 4px solid #ff69b4;
         }
         h1 {
-            color: #ff4081;
+            color: #ff69b4;
         }
-        p {
-            font-size: 16px;
-        }
-        .button {
+        .icons a {
             display: inline-block;
-            background: #ff4081;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            margin-top: 15px;
+            margin: 10px;
+            font-size: 30px;
+            color: #ff69b4;
+            transition: transform 0.3s;
         }
-        .button:hover {
-            background: #e91e63;
+        .icons a:hover {
+            transform: scale(1.2);
+        }
+        .btn {
+            display: inline-block;
+            background: #ff69b4;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #ff1493;
         }
     </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
-        <img src="minhafoto.jpeg" alt="Dhênnifer">
+        <img src="minhafoto.jpeg" alt="Dhênnifer" class="profile-pic">
         <h1>Dhênnifer - Cantora para Casamentos</h1>
-        <p>Transforme seu casamento em um momento inesquecível com uma trilha sonora emocionante e personalizada.</p>
-        <a href="https://wa.me/seu-numero" class="button">Fale comigo no WhatsApp</a>
+        <p>Com experiência em bandas e apresentações na igreja, trago minha paixão pela música para casamentos e eventos especiais. Meu objetivo é transformar cada momento em uma lembrança inesquecível, com um repertório personalizado e emocionante.</p>
+        <div class="icons">
+            <a href="https://wa.me/seu-numero" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/dhenniferalves/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:dhennifer02@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+        <a href="https://wa.me/seu-numero" class="btn">Fale comigo no WhatsApp</a>
     </div>
 </body>
 </html>
