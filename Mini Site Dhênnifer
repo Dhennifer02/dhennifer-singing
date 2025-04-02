@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhênnifer – Cantora para Casamentos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fef8f5;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #d6336c;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        .contact-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #d6336c;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="your-photo.jpg" alt="Dhênnifer - Cantora para Casamentos">
+        <h1>Dhênnifer – Cantora para Casamentos</h1>
+        <p>Com experiência em bandas e apresentações na igreja, trago minha paixão pela música para casamentos e eventos especiais. Meu objetivo é transformar cada momento em uma lembrança inesquecível, com um repertório personalizado e emocionante.</p>
+        <a href="https://wa.me/seu-numero" class="contact-btn">Fale comigo no WhatsApp</a>
+        <p>Siga-me no <a href="https://instagram.com/seu-instagram" target="_blank">Instagram</a></p>
+    </div>
+</body>
+</html>
